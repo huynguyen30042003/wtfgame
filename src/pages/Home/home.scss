@@ -1,0 +1,48 @@
+.Display-none{
+    display: none !important;
+}
+.Home{
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    .Tutorial{
+        display: flex;
+    flex-direction: column;
+        a:first-child{
+            font-size: 64px;
+        }
+
+    }
+    .PlayerReady{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        width: 600px;
+        height: 50px;
+    }
+    .PlayerInfo{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 30%;
+        background-color: rgb(233, 241, 238);
+        justify-content: space-around;
+        align-items: center;
+        a{
+            font-size: 32px;
+        }
+        input{
+            width: 80%;
+            background-color: aliceblue;
+            color: black;
+        }
+        button{
+            width: 80%;
+        }
+    }
+}
